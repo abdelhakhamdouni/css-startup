@@ -1,0 +1,27 @@
+
+.fade-in{
+    opacity: 0;
+    animation-name: fade-in;
+}
+.fade-out{
+    opacity: 1;
+    animation-name: fade-out;
+}
+.zoom-in{
+    transform-origin: center; 
+    transform: scale(0);
+    animation-name: zoom-in;
+}
+.zoom-out{
+    transform-origin: center; 
+    animation-name: zoom-out;
+}
+.anim{
+    animation-duration: .5s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+@keyframes fade-in {to{ opacity: 1; }}
+@keyframes fade-out {to{ opacity: 0; }}
+@keyframes zoom-in {to{ transform: scale(1); }}
+@keyframes zoom-out {to{ transform: scale(0); }}

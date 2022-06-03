@@ -1,0 +1,17 @@
+.border{border: 1px solid $gray50;}
+.border-top{border-top: 1px solid $gray50;}
+.border-left{border-left: 1px solid $gray50;}
+.border-right{border-right: 1px solid $gray50;}
+.border-bottom{border-bottom: 1px solid $gray50;}
+
+.shadow{box-shadow: 0 0 32px rgba(80, 80, 80, 0.26)}
+
+.t-center{text-align: center;}
+.t-left{text-align: left;}
+.t-right{text-align: right;}
+.t-justify{text-align: justify;}
+.t-upper{text-transform: uppercase;}
+.t-bold{font-weight: bold;}
+.t-bolder{font-weight: 800;}
+
+strong{font-weight: 600; color: $dark;}

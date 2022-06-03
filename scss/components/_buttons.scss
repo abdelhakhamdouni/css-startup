@@ -1,0 +1,16 @@
+button{
+    background-color: transparent;
+    color: $gray75;
+    padding: .5rem 1rem;
+    border: none;
+    font-size: 1rem;
+    filter: brightness(1);
+    cursor: pointer;
+    &:hover{
+        filter: brightness(.95);
+    }
+    &:active{
+        filter: brightness(.8);
+    }
+}
+

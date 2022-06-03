@@ -1,0 +1,30 @@
+.wrapper{
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+[class*="cl-"]{
+    width: 100%;
+}
+.d-none{display: none;}
+.flex{display: flex;}
+.f-columns{flex-direction: column;}
+.f-rows{flex-direction: row;}
+.inline-flex{display: inline-flex;}
+.block{display: block;}
+.inline-block{display: inline-block;}
+
+.flex-center{align-items: center;justify-content: center;}
+.flex-end{align-items: flex-end; justify-content: end;}
+
+.flex-align-center{align-items: center;}
+.flex-align-end{align-items: flex-end;}
+.flex-align-start{align-items: flex-start;}
+
+.flex-justify-center{justify-content: center;}
+.flex-justify-end{justify-content: flex-end;}
+.flex-justify-start{justify-content: flex-start;}
+
+

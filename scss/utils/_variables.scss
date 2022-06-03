@@ -1,0 +1,41 @@
+// Breakpoints
+$device-sm: 576px;
+$device-md: 768px;
+$device-lg: 992px;
+$device-xlg: 1200px;
+
+$widths: (
+    "m": $device-md, 
+    "l": $device-lg, 
+    "xl": $device-xlg
+);
+
+// colors
+$dark: #232323;
+$white: #fefefe;
+$blue: #009ddcff;
+$orange: #f55d3eff;
+$green: #0b6e4fff;
+$yellow: #f1d302ff;
+$gray: rgba(56, 56, 56, 0.863);
+$gray75: rgba(42, 45, 52, 0.75);
+$gray60: rgba(42, 45, 52, 0.6);
+$gray50: rgba(42, 45, 52, 0.5);
+$gray25: rgba(42, 45, 52, 0.25);
+$gray10: rgba(42, 45, 52, 0.10);
+
+$primary: #009ddcff;
+
+$colors: (
+    "dark": #232323,
+    "white": #fefefe,
+    "blue": #009ddcff,
+    "orange": #f55d3eff,
+    "green": #0b6e4fff,
+    "yellow": #f1d302ff,
+    "gray75": #2a2d34bf,
+    "gray60": #2a2d3499,
+    "gray50": #2a2d3480,
+    "gray25": #2a2d3440,
+    "gray10": #2a2d341a,
+);
