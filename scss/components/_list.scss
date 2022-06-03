@@ -1,3 +1,27 @@
 ul, li{
     list-style: none;
+    .dropdown{
+        position: absolute;
+        ul li{
+            position: relative;
+            max-height: 0;
+            overflow: hidden;
+            background-color: $white;
+        }
+        span{
+            cursor: pointer;
+        }
+        &:hover ul li{
+            max-height: 100%;
+            padding: 1rem;
+            border: 1px solid $gray10;
+        }
+        // ul:hover{
+        //     li{
+        //         max-height: 100%;
+        //         padding: 1rem;
+        //         border: 1px solid $gray10;
+        //     }
+        // }
+    }
 }
