@@ -68,11 +68,11 @@
 //Borders
 
 @for $i from 1 to 6 {
-    .border-#{$i}{border: $i * 1px solid $gray50 !important;}
-    .border-top-#{$i}{border-top: $i * 1px solid $gray50 !important;}
-    .border-left-#{$i}{border-left: $i * 1px solid $gray50 !important;}
-    .border-right-#{$i}{border-right: $i * 1px solid $gray50 !important;}
-    .border-bottom-#{$i}{border-bottom: $i * 1px solid $gray50 !important;}
+    .border-#{$i}{border: $i * 1px solid $gray-50 !important;}
+    .border-top-#{$i}{border-top: $i * 1px solid $gray-50 !important;}
+    .border-left-#{$i}{border-left: $i * 1px solid $gray-50 !important;}
+    .border-right-#{$i}{border-right: $i * 1px solid $gray-50 !important;}
+    .border-bottom-#{$i}{border-bottom: $i * 1px solid $gray-50 !important;}
 }
 
 @each $name, $color in $colors {

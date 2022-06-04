@@ -1,6 +1,51 @@
 .card{
     padding: 1rem;
-    border: 1px solid $gray25;
+    border: 1px solid $gray-25;
     border-radius: 5px;
     background-color: #fff;
+}
+
+.article_card_linear{
+    display: flex;
+    border: 1px solid $gray-10;
+    margin-bottom: 1rem;
+    &-image{
+        width: 25%;
+        img{
+            max-width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &-content{
+        flex: 5;
+        padding: .3rem .5rem;
+        &-title{
+            font-size: 1rem;
+            line-height: 1.2;
+        }
+        &-meta {
+            margin-top: .3rem;
+            li{
+                font-size: .8rem;
+                font-weight: 300;
+                color: $gray-75;
+                padding: 0;
+                margin: 0 .5rem;
+            }
+        }
+    }
+    &:hover{
+        .article_card_linear{
+            &-image{
+                overflow: hidden;
+                img{
+                    transform: scale(1.1);
+                }
+            }
+            &-content-title{
+                color: $primary !important;
+            }
+        }
+    }
 }

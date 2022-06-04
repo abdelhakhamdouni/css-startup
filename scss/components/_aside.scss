@@ -1,0 +1,9 @@
+aside, .sidebar{
+    padding: 3rem 1rem;
+    .sidebar_item{
+        margin-bottom: 3rem;
+        &-title{
+            margin-bottom: 1rem;
+        }
+    }
+}

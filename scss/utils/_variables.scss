@@ -3,26 +3,29 @@ $device-sm: 576px;
 $device-md: 768px;
 $device-lg: 992px;
 $device-xlg: 1200px;
+$device-xxlg: 1400px;
 
 $widths: (
     "m": $device-md, 
     "l": $device-lg, 
-    "xl": $device-xlg
+    "xl": $device-xlg,
+    "xxl": $device-xxlg
 );
 
 // colors
-$dark: #232323;
+$dark: #373737;
 $white: #fefefe;
 $blue: #009ddcff;
 $orange: #f55d3eff;
 $green: #0b6e4fff;
 $yellow: #f1d302ff;
-$gray: rgba(56, 56, 56, 0.863);
-$gray75: rgba(42, 45, 52, 0.75);
-$gray60: rgba(42, 45, 52, 0.6);
-$gray50: rgba(42, 45, 52, 0.5);
-$gray25: rgba(42, 45, 52, 0.25);
-$gray10: rgba(42, 45, 52, 0.10);
+$gray: #383838dc;
+$gray-75: #2a2d34bf;
+$gray-60: #2a2d3499;
+$gray-50: #2a2d3480;
+$gray-25: #2a2d3440;
+$gray-10: #2a2d341a;
+$gray-5: #2a2d340d;
 
 $primary: #009ddcff;
 
@@ -33,9 +36,11 @@ $colors: (
     "orange": #f55d3eff,
     "green": #0b6e4fff,
     "yellow": #f1d302ff,
-    "gray75": #2a2d34bf,
-    "gray60": #2a2d3499,
-    "gray50": #2a2d3480,
-    "gray25": #2a2d3440,
-    "gray10": #2a2d341a,
+    "gray-75": #2a2d34bf,
+    "gray-50": #2a2d3480,
+    "gray-25": #2a2d3440,
+    "gray-10": #2a2d341a,
+    "gray": #383838dc,
+    "gray-60": #2a2d3499,
+    "gray-5": #2a2d340d
 );

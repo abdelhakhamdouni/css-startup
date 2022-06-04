@@ -23,9 +23,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
 ol, ul {
 	list-style: none;
 }
@@ -44,22 +41,10 @@ table {
 body{
     min-height: 100vh;
     color: $gray;
-    font-family: 'Poppins', sans-serif;
+    font-family: system-ui, 'Poppins', sans-serif;
     font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.6;
-    @media (min-width: $device-md) {
-        font-size: 1.1rem;
-        line-height: 1.8;
-    }
-    @media (min-width: $device-lg) {
-        font-size: 1.15rem;
-        line-height: 1.7;
-    }
-    @media (min-width: $device-xlg) {
-        font-size: 1.15rem;
-        line-height: 1.8;
-    }
+    line-height: 1;
+    background-color: #fff;
 }
 a{
     text-decoration: none;

@@ -14,7 +14,7 @@ ul, li{
         &:hover ul li{
             max-height: 100%;
             padding: 1rem;
-            border: 1px solid $gray10;
+            border: 1px solid $gray-10;
         }
         // ul:hover{
         //     li{
@@ -24,4 +24,8 @@ ul, li{
         //     }
         // }
     }
+    @media (max-width: 576px){
+        flex-direction: column;
+    }
 }
+.list-inline{display: flex;}
