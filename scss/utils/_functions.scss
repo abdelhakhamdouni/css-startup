@@ -15,10 +15,10 @@
 }
 
 @each $name, $color in $colors {
-    .b-#{$name}{background-color: $color; }
-    .t-#{$name}{color: $color; }
-    .hover-b-#{$name}:hover{background-color: $color; }
-    .hover-t-#{$name}:hover{color: $color; }
+    .b-#{$name}{background-color: $color !important; }
+    .t-#{$name}{color: $color !important; }
+    .hover-b-#{$name}:hover{background-color: $color !important; }
+    .hover-t-#{$name}:hover{color: $color !important; }
 };
 
 // PADDING & MARGIN

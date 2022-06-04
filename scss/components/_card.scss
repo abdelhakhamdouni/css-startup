@@ -1,34 +1,40 @@
-.card{
+.card {
     padding: 1rem;
     border: 1px solid $gray-25;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: $white;
 }
 
-.article_card_linear{
+.article_card_linear {
     display: flex;
     border: 1px solid $gray-10;
     margin-bottom: 1rem;
-    &-image{
+    background-color: $white;
+    &-image {
         width: 25%;
-        img{
+
+        img {
             max-width: 100%;
             height: 100%;
             object-fit: cover;
         }
     }
-    &-content{
+
+    &-content {
         flex: 5;
         padding: .3rem .5rem;
-        &-title{
+
+        &-title {
             font-size: 1rem;
             font-weight: 500;
             line-height: 1.2;
             color: $gray;
         }
+
         &-meta {
             margin-top: .3rem;
-            li{
+
+            li {
                 font-size: .8rem;
                 font-weight: 300;
                 color: $gray-75;
@@ -37,18 +43,93 @@
             }
         }
     }
-    &:hover{
+
+    &:hover {
         box-shadow: 0 0 25px $gray-25;
-        .article_card_linear{
-            &-image{
+        transform: translateY(-3px);
+
+        .article_card_linear {
+            &-image {
                 overflow: hidden;
-                img{
+
+                img {
                     transform: scale(1.1);
                 }
             }
-            &-content-title{
-                color: $primary !important;
+
+            &-content-title {
+                color: $primary  !important;
             }
         }
+    }
+}
+
+.article_card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid $gray-10;
+    padding: 0;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    transition: .3s ease;
+    background-color: $white;
+    &:hover {
+        background-color: $gray-5;
+        box-shadow: 5px 5px 20px $gray-25;
+        .article_card {
+            &-image {
+                overflow: hidden;
+                img{
+                    transform: rotate(3deg) scale(1.2);
+                }
+            }
+            &-title {
+                color: $primary;
+            }
+            &-button {
+                background-color: $green !important;
+            }
+        }
+    }
+
+    &-image {
+        overflow: hidden;
+        img {
+            transition: .3s;
+            height: 12rem;
+            object-fit: cover;
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    &-title {
+        font-size: 1.1rem;
+        padding: 1rem 1rem .5rem;
+        text-align: justify;
+    }
+
+    &-meta span {
+        font-size: .8rem;
+        font-weight: 300;
+        color: $gray-60;
+        margin: 0 1rem .7rem 0;
+        display: inline-block;
+        padding: 0 1rem;
+    }
+
+    &-description {
+        color: $gray-75;
+        margin-bottom: 2rem;
+        font-size: .9rem;
+        font-weight: 300;
+        padding: 0 1rem;
+        flex: 1;
+    }
+
+    &-button {
+        align-self: center;
+        justify-self: flex-end;
     }
 }

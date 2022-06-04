@@ -1,6 +1,9 @@
 .article{
     padding: 0 1rem;
-    padding: 3rem 2rem;
+    padding: 3rem 1rem;
+    @media (max-width: 992px) {
+        padding: 2rem 0;
+    }
     &_header{
         &-meta li{
             font-size: .9rem;
