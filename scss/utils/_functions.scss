@@ -17,6 +17,8 @@
 @each $name, $color in $colors {
     .b-#{$name}{background-color: $color; }
     .t-#{$name}{color: $color; }
+    .hover-b-#{$name}:hover{background-color: $color; }
+    .hover-t-#{$name}:hover{color: $color; }
 };
 
 // PADDING & MARGIN
@@ -86,5 +88,14 @@
         .vh-#{$i}{height: $i * 1vh;}
         .w-#{$i}{width: $i * 1%;}
         .vw-#{$i}{width: $i * 1vw;}
+    }
+}
+
+// POSITIONS
+
+@each $side in $sides {
+    .sticky-#{$side}{
+        position: sticky !important;
+        #{$side}: 0;
     }
 }

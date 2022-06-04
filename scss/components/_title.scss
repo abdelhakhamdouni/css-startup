@@ -7,11 +7,11 @@ h1{
     @media (min-width: $device-xlg) {font-size: 3rem;}
 }
 h2{
-    font-size: 2.45em;font-weight: 600; 
+    font-size: 2.45em;font-weight: 500; 
     @media (min-width: $device-sm) {font-size: 1.2rem;}
     @media (min-width: $device-md) {font-size: 1.3rem;}
     @media (min-width: $device-lg) {font-size: 1.6rem;}
-    @media (min-width: $device-xlg) {font-size: 2.5rem;}
+    @media (min-width: $device-xlg) {font-size: 1.8rem;}
 }
 
 h3{

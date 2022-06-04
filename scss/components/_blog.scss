@@ -1,6 +1,12 @@
 .article{
     padding: 0 1rem;
-    padding: 3rem 1rem;
+    padding: 3rem 2rem;
+    &_header{
+        &-meta li{
+            font-size: .9rem;
+            color: $gray-60;
+        }
+    }
     .article_content{
         padding: 1rem 0;
         ul{

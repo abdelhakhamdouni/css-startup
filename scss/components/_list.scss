@@ -28,4 +28,7 @@ ul, li{
         flex-direction: column;
     }
 }
-.list-inline{display: flex;}
+.list-inline{
+    display: flex;
+    flex-wrap: wrap;
+}

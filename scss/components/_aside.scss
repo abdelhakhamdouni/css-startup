@@ -4,6 +4,24 @@ aside, .sidebar{
         margin-bottom: 3rem;
         &-title{
             margin-bottom: 1rem;
+            color: $primary;
+            font-weight: 500;
+        }
+        .tags{
+            display: flex;
+            flex-direction: row;
+            .tag{
+                display: inline-block;
+                padding: .3rem .3rem;
+                border: 1px solid $primary;
+                font-size: .9rem;
+                margin: .3rem;
+                cursor: pointer;
+                &:hover{
+                    background-color: $primary;
+                    color: $white;
+                }
+            }
         }
     }
 }
